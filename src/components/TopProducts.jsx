@@ -62,7 +62,7 @@ const TopProducts = () => {
                 data-aos="fade-up"
                 data-aos-delay="0" // You might want to adjust the delay dynamically if needed
                 key={product.id}
-                className="space-y-3 text-center cursor-pointer" // Add cursor pointer to indicate clickable items
+                className="space-y-3 text-center cursor-pointer " // Add cursor pointer to indicate clickable items
                 onClick={() => handleProductClick(product.id)} // Add click handler
               >
                 <img
